@@ -1,2 +1,4 @@
-# -
-Single-header počeštění C++ pro masochisty.
+# Č++
+Jednohlavičkové počeštění C++ pro masochisty.
+
+Rozšíření navrhujte v potížích.
