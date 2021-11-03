@@ -1,10 +1,10 @@
 #include <iostream>
-#include "Č.h"
+#include "č.h"
 
-Používej Jmenný_prostor std;
+používej jmenný_prostor std;
 
-Celé_číslo Hlavní(Prázdnota)
+celé_číslo hlavní(prázdnota)
 {
-	Kven << "Č++ je nejlepší na světě";
-	Vrať 0;
+	kven << "Č++ je nejlepší na světě";
+	vrať 0;
 }
