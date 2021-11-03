@@ -1,8 +1,8 @@
 #pragma once
-#define Používej using
-#define Jmenný_prostor namespace
-#define Celé_číslo int
-#define Hlavní main
-#define Prázdnota void
-#define Kven cout
-#define Vrať return
+#define používej using
+#define jmenný_prostor namespace
+#define celé_číslo int
+#define hlavní main
+#define prázdnota void
+#define kven cout
+#define vrať return
