@@ -3,7 +3,7 @@
 
 používej jmenný_prostor std;
 
-celé_číslo hlavní(prázdnota)
+celč hlavní(prázdnota)
 {
 	neoznaménkovaný znak výpis = 'c';
 	bool dobrý_výpis = výpis == 'č';

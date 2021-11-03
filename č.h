@@ -8,7 +8,7 @@
 #define neoznaménkovaný unsigned
 #define podepsaný signed
 //
-#define celé_číslo int
+#define celč int
 #define plovák float
 #define dvojitý double
 #define znak char
