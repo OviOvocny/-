@@ -6,12 +6,18 @@
 #define krátký short
 #define dlouhý long
 #define neoznaménkovaný unsigned
+#define nepodepsaný unsigned
+#define oznaménkovaný signed
 #define podepsaný signed
+#define stálý const
 //
 #define celč int
 #define plovák float
 #define dvojitý double
 #define znak char
+#define	dznak_t	wchar_t
+
+#define samo auto
 //
 #define sjednocení union
 #define očísl enum
