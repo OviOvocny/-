@@ -62,5 +62,38 @@
 #define kzáznam clog
 #define konecř endl
 //
+// vector
+#define vektor vector
+#define přiřadit assign
+#define na at
+#define čelo front
+#define záda back
+
+#define začít begin
+#define czačít cbegin
+#define skončit end
+#define cskončit cend
+#define ozačít rbegin
+#define cozačít crbegin
+#define oskončit rend
+#define coskončit crend
+
+#define prázdný empty
+#define velikost size
+#define max_velikost max_size
+#define vyhradit reserve
+#define kapacita capacity
+#define smrsknout_na_vhodný shrink_to_fit
+
+#define vymazat clear
+#define vložit insert
+#define umístit emplace
+#define vygumovat erase
+#define strčit_dozadu push_back
+#define umístit_dozadu emplace_back
+#define vystřelit_zezadu pop_back
+#define změnit_velikost resize
+#define prohodit swap
+//
 // další ptákoviny
 #define hlavní main
