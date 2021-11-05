@@ -47,6 +47,7 @@
 #define přepínač switch
 #define šuplík case
 #define rozbít break
+#define výchozí default
 #define pokračovat continue
 #define zkus try
 #define chyť catch
@@ -113,3 +114,4 @@
 //
 // další ptákoviny
 #define hlavní main
+#define východ exit
