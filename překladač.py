@@ -74,6 +74,7 @@ def vprint (text):
 vprint("Vytváření slovníku")
 d = get_dict()
 vprint("Začíná překlad")
+ofile.write('#include "č.h"\n')
 for line in ifile:
   line = translate(line, d)
   ofile.write(line)
