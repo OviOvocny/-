@@ -15,7 +15,7 @@
 #define plovák float
 #define dvojitý double
 #define znak char
-#define	dznak_t	wchar_t
+#define	šznak_t	wchar_t
 
 #define samo auto
 //
