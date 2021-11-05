@@ -95,5 +95,17 @@
 #define změnit_velikost resize
 #define prohodit swap
 //
+// string
+#define struna string
+#define opsat copy
+#define nalézt find
+#define onalézt rfind
+#define nalézt_první_z find_first_of
+#define nalézt_poslední_z find_last_of
+#define nalézt_první_ne_z find_first_not_of
+#define nalézt_poslední_ne_z find_last_not_of
+#define podstr substr
+#define srovnat compare
+//
 // další ptákoviny
 #define hlavní main
