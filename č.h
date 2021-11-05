@@ -60,6 +60,10 @@
 #define kdovnitř cin
 #define kchyb cerr
 #define kzáznam clog
+#define škven wcout
+#define škdovnitř wcin
+#define škchyb wcerr
+#define škzáznam wclog
 #define konecř endl
 //
 // vector
