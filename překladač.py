@@ -2,6 +2,7 @@
 
 import argparse
 import sys
+import re
 
 # ARGS
 ap = argparse.ArgumentParser(description="Přeložit C++ na Č++ a naopak")
@@ -61,11 +62,12 @@ def get_dict ():
   vprint(f"Nalezeno {len(d)} definicí")
   return d
 
-def translate (line, d):
-  for f_key, f_value in d.items():
-    if f_key in line:
-      line = line.replace(f_key, f_value)
-  return line
+def translate (line: str, d):
+  ln, *rest = line.split("//", maxsplit=1)
+  def replace (match):
+    return d[match.group(0)]
+  tl = re.sub('|'.join(r'\b%s\b' % re.escape(s) for s in d), replace, ln) 
+  return "//".join([tl, *rest])
 
 def vprint (text):
   if args.ukecaný:
